@@ -7,7 +7,7 @@ do {
     alert('Yikes! Too high. Try again')
   } else if (guess < age) {
     alert('Oh dear! Too low. Try again')
-  } else if (guess === age){
+  } else if (guess === age) {
     alert('You got it right!')
     const ans = prompt('Would you like to play again? This time its challenging (yes/no)')
     if (ans === 'yes') {
